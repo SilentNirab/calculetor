@@ -55,3 +55,16 @@ form input.equal{
 .calculetor .btn-style{
     color: rgb(21, 196, 181);
 }
+
+@media (max-width: 374px) {
+    .calculetor form input {
+        width: 45px;
+        height: 45px;
+    }
+    form .display input {
+        font-size: 30px;
+    }
+    form input.equal {
+        width: 100px;
+    }
+}
